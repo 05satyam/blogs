@@ -14,7 +14,7 @@
         1.2 Calculated as the square root of the sum of the squared differences between corresponding coordinates.
         1.3 Formula: 
                 
-                 d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}$`
+                 ![Euclidean Distance](https://latex.codecogs.com/svg.latex?d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2})
                 
 
     2. Manhattan Distance: 
