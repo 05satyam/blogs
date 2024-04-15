@@ -1,7 +1,7 @@
 # DISTANCE METRICS IN MACHINE LEARNING  
 
 ## INDEX: IMPORTANCE > TYPES-REPRESENTATIONS > WHEN-TO-USE > PYTHON-LIB
-
+![Euclidean Distance](https://latex.codecogs.com/svg.latex?d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2})
 ### IMPORTANCE:
     1. To make decisions by understanding the pattern of input data.
     2. Algorithms makes decisions based on proximity
