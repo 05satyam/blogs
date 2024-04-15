@@ -12,40 +12,29 @@
 1. Euclidean Distance: 
     - Straight line distance between two data-points in Euclidean space.
     - Calculated as the square root of the sum of the squared differences between corresponding coordinates.
-    - Formula: 
-                
-                 ![Euclidean Distance](https://latex.codecogs.com/svg.latex?d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2})
-                
+    - Formula:  d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2}$`         
 
 2. Manhattan Distance: 
     - It is the sum of the absolute differences between the coordinates of two points.
     - Manhattan distance is also known as [Taxicab Geometry](https://en.wikipedia.org/wiki/Taxicab_geometry).
-    - Formula:
-                
-                   d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sum_{i=1}^{n} |q_i - p_i|$`
+    - Formula: d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sum_{i=1}^{n} |q_i - p_i|$`
                 
 3. Minkowski Distance:
     - A generalization of the Euclidean and Manhattan distances.
     - Distance metric exponent `p` is a parameter. When `p=1`, it's the Manhattan distance, and when `p=2`   
             it's the Euclidean distance.
-    - Formula:
-                
-                  d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \left( \sum_{i=1}^{n} |q_i - p_i|^p \right)^{1/p}$`
+    - Formula: d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \left( \sum_{i=1}^{n} |q_i - p_i|^p \right)^{1/p}$`
                 
 4. Cosine Similarity: 
     - Measures the cosine of the angle between two vectors.
     - Mostly used in text mining and document similarity tasks.
     - Often used when the vectors orientation is more important than magnitude of vectors.
-    - Formula:
-                
-                  d(p,q)= `$\text{cosine similarity}(\mathbf{p}, \mathbf{q}) = \frac{\mathbf{p} \cdot \mathbf{q}}{\|\mathbf{p}\| \|\mathbf{q}\|}$`
+    - Formula: d(p,q)= `$\text{cosine similarity}(\mathbf{p}, \mathbf{q}) = \frac{\mathbf{p} \cdot \mathbf{q}}{\|\mathbf{p}\| \|\mathbf{q}\|}$`
                 
 5. Hamming Distance: 
     - Specifically designed for categorical data. 
     - Often used and apt for comparing sequences, such as DNA sequences or binary strings.
-    - Formula:
-                
-                  d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sum_{i=1}^{n} (p_i \neq q_i)$`
+    - Formula: d(p,q)= `$d(\mathbf{p}, \mathbf{q}) = \sum_{i=1}^{n} (p_i \neq q_i)$`
                 
 
 ### WHEN-TO-USE
